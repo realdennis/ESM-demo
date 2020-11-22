@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ESModule Demo</title>
+    <style>
+        code {
+            background: rgba(0,0,0,.2);
+            
+        }
+    </style>
   </head>
   <body>
-    No bundler, just ESM! Press F12 to console tab, see how it works.
+    <p>
+      No bundler, just ESM! Press F12 to <code>console/source/network</code> tab, see
+      how it works.
+    </p>
+    <p>
+      For the mobile user, the below element is empty, will be
+      <code>Hello world :D</code> after <code>helloworld.js</code> be imported.
+    </p>
+    <p class="message"></p>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
